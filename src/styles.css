@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgba(255, 227, 248, 0.4);
+}
+
+/* Headings */
+
+h1 {
+  background-image: linear-gradient(
+    to right,
+    pink,
+    rgb(172, 63, 250),
+    rgb(236, 78, 78),
+    green
+  );
+  -webkit-background-clip: text;
+  background-clip: none;
+  -webkit-text-fill-color: transparent;
+  margin: 2rem 0rem;
+}
+
+h2 {
+  background-image: linear-gradient(
+    to right,
+    black,
+    rgb(97, 63, 121),
+    rgb(78, 236, 189),
+    black
+  );
+  -webkit-background-clip: text;
+  background-clip: none;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: green;
+  display: inline;
+  padding: 10px;
+  margin: 0rem 2rem;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Buttons */
+
+button {
+  display: inline-block;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  /* width: 30px; */
+  /* height: 30px; */
+  padding: 3px 10px;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  color: blue;
+  font-size: 20px;
+  border: 5px solid transparent;
+  background: white;
+  font-weight: 800;
+  margin: 10px 1rem;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.decrease-button {
+  padding: 0px 12px;
+  font-size: 30px;
+  font-weight: 100;
+}
